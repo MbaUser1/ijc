@@ -94,7 +94,7 @@ export function Hero() {
             Construisons{" "}
             <span className="text-[#0B1720]">l&apos;impact ensemble.</span>
           </h1>
-           <div className="mt-4 justify-center flex  gap-3">
+          <div className="mt-4 justify-center flex  gap-3">
             <span className="h-1 w-12 rounded-full bg-[#044E83]" />
             <span className="h-1 w-5 rounded-full bg-[#1C9B35]" />
             <span className="h-1 w-5 rounded-full bg-[#FFC000]" />

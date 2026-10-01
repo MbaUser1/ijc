@@ -42,7 +42,7 @@ export function AboutContent() {
       {/* Qui sommes-nous ? */}
       <section
         id="qui-sommes-nous"
-        className="bg-white px-5 py-24 sm:px-6 lg:px-8 lg:py-32"
+        className="bg-white px-12 py-16 sm:px-14 lg:px-16 lg:py-24"
       >
         <div className="mx-auto max-w-[1200px]">
           <div className="grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
@@ -112,7 +112,7 @@ export function AboutContent() {
       {/* Mission & Vision */}
       <section
         id="mission"
-        className="bg-[#F8FAFC] px-5 py-24 sm:px-6 lg:px-8 lg:py-32"
+        className="bg-[#F8FAFC] px-12 py-20 sm:px-14 lg:px-16 lg:py-28"
       >
         <div className="mx-auto max-w-[1200px]">
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-20">
@@ -155,7 +155,7 @@ export function AboutContent() {
       {/* Valeurs */}
       <section
         id="valeurs"
-        className="bg-white px-5 py-24 sm:px-6 lg:px-8 lg:py-32"
+        className="bg-white px-12 py-16 sm:px-14 lg:px-16 lg:py-24"
       >
         <div className="mx-auto max-w-[1200px]">
           <div className="max-w-2xl">
@@ -209,7 +209,7 @@ export function AboutContent() {
       {/* Objectifs */}
       <section
         id="objectifs"
-        className="bg-[#F8FAFC] px-5 py-24 sm:px-6 lg:px-8 lg:py-32"
+        className="bg-[#F8FAFC] px-12 py-16 sm:px-14 lg:px-16 lg:py-24"
       >
         <div className="mx-auto max-w-[1200px]">
           <div className="grid gap-12 lg:grid-cols-[0.75fr_1.25fr] lg:gap-24">
@@ -233,7 +233,7 @@ export function AboutContent() {
               {objectives.map((objective, index) => (
                 <div
                   key={objective}
-                  className="flex gap-5 border-b border-slate-200 py-6"
+                  className="flex gap-5 border-b border-slate-200 py-4"
                 >
                   <span className="shrink-0 font-[var(--font-sora)] text-xs font-semibold text-[#1C9B35]">
                     {String(index + 1).padStart(2, "0")}
@@ -252,7 +252,7 @@ export function AboutContent() {
       {/* Équipe */}
       <section
         id="equipe"
-        className="bg-white px-5 py-24 sm:px-6 lg:px-8 lg:py-32"
+        className="bg-white px-12 py-16 sm:px-14 lg:px-16 lg:py-24"
       >
         <div className="mx-auto max-w-[1200px]">
           <div className="mx-auto max-w-2xl text-center">

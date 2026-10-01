@@ -5,7 +5,7 @@ export function About() {
   return (
     <section
       id="a-propos"
-      className=" bg-[#F8FAFC] px-12 pt-16 pb-24 sm:px-14 sm:pt-20 lg:px-8 lg:pt-20 lg:pb-32"
+      className=" bg-[#F8FAFC] px-12 pt-16 pb-20 sm:px-14 sm:pt-20 lg:px-8 lg:pt-20 lg:pb-24"
     >
       <div className="mx-auto max-w-[1200px]">
         {/* En-tête */}
@@ -72,7 +72,7 @@ export function About() {
             </div>
 
             <a
-              href="#vision"
+              href="a-propos"
               className="group mt-8 inline-flex items-center gap-2 font-[var(--font-sora)] text-sm font-semibold text-[#044E83]"
             >
               En savoir plus sur IJC

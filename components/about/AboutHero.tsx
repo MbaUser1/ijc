@@ -2,7 +2,7 @@ import { ArrowDown, ArrowUpRight } from "lucide-react";
 
 export function AboutHero() {
   return (
-    <section className="bg-[#F8FAFC] px-5 pb-20 pt-36 sm:px-6 sm:pb-24 lg:px-8 lg:pb-28 lg:pt-40">
+    <section className="bg-[#F8FAFC] px-12 pb-16 pt-36 sm:px-14 sm:pb-24 lg:px-16 lg:pb-24 lg:pt-40">
       <div className="mx-auto max-w-[1200px]">
         <div className="max-w-3xl">
           <p className="font-[var(--font-sora)] text-xs font-semibold uppercase tracking-[0.2em] text-[#1C9B35]">

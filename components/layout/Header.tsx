@@ -392,8 +392,8 @@ const navigation = [
   { label: "À propos", href: "#a-propos" },
   { label: "Nos actions", href: "#actions" },
   { label: "Projets", href: "#projets" },
-  { label: "Événements", href: "#evenements" },
   { label: "Opportunités", href: "#opportunites" },
+  { label: "Événements", href: "#evenements" },
 ];
 
 export function Header() {
@@ -405,7 +405,7 @@ export function Header() {
         <div className="flex h-[72px] items-center justify-between">
           {/* Logo */}
           <a
-            href="#"
+            href="/"
             onClick={() => setOpen(false)}
             className="flex items-center gap-2.5"
           >

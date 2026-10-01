@@ -37,7 +37,7 @@ export function Opportunities() {
   return (
     <section
       id="opportunites"
-      className="bg-white px-12 py-18 sm:px-14 lg:px-8 lg:py-22"
+      className="bg-white px-12 py-16 sm:px-14 lg:px-8 lg:py-20"
     >
       <div className="mx-auto max-w-[1200px]">
         {/* Intro */}
