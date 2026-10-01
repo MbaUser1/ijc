@@ -31,7 +31,7 @@ export function Partners() {
   return (
     <section
       id="partenaires"
-      className="bg-white px-5 py-24 sm:px-6 lg:px-8 lg:py-28"
+      className="bg-white px-12 py-16 sm:px-14 lg:px-8 lg:py-20"
     >
       <div className="mx-auto max-w-[1200px]">
         <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-center lg:gap-20">
@@ -41,7 +41,7 @@ export function Partners() {
               Nos partenaires
             </p>
 
-            <h2 className="mt-4 font-[var(--font-sora)] text-3xl font-bold leading-tight tracking-[-0.035em] text-[#044E83] sm:text-4xl">
+            <h2 className="mt-4 font-[var(--font-sora)] text-3xl font-bold leading-tight tracking-[-0.02em] text-[#044E83] sm:text-4xl">
               Construire l'impact ensemble.
             </h2>
             <div className="mt-4 flex items-center gap-3">

@@ -148,7 +148,7 @@ export function Actions() {
   return (
     <section
       id="actions"
-      className="bg-white px-5 py-20 sm:px-6 lg:px-8 lg:py-26"
+      className="bg-white px-12 py-20 sm:px-14 lg:px-8 lg:py-26"
     >
       <div className="mx-auto max-w-[1200px]">
         {/* Intro */}
@@ -169,7 +169,7 @@ export function Actions() {
             </div>
           </div>
 
-          <p className="max-w-sm text-sm leading-6 text-slate-500 lg:pb-1">
+          <p className="max-w-sm text-sm leading-6 text-slate-500 lg:pb-1 sm:text-base">
             Nos interventions s'articulent autour de plusieurs domaines
             essentiels au développement et à l'autonomisation des jeunes.
           </p>

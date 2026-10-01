@@ -31,7 +31,7 @@ export function Impact() {
   return (
     <section
       id="impact"
-      className="bg-[#F8FAFC] px-5 py-24 sm:px-6 lg:px-8 lg:py-32"
+      className="bg-[#F8FAFC] px-12 py-16 sm:px-14 lg:px-8 lg:py-20"
     >
       <div className="mx-auto max-w-[1200px]">
         {/* En-tête */}
@@ -52,7 +52,7 @@ export function Impact() {
             </div>
           </div>
 
-          <p className="max-w-md text-sm leading-7 text-slate-500 lg:justify-self-end">
+          <p className="max-w-md text-sm leading-7 text-slate-500 lg:justify-self-end sm:text-base">
             L'impact d'IJC se construit à travers les personnes que nous
             accompagnons, les compétences développées et les initiatives qui
             prennent vie.

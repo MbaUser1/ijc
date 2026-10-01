@@ -22,7 +22,7 @@ export function Projects() {
   return (
     <section
       id="projets"
-      className=" bg-[#F8FAFC] px-5 py-18 sm:px-6 lg:px-8 lg:py-22"
+      className=" bg-[#F8FAFC] px-12 py-18 sm:px-14 lg:px-8 lg:py-22"
     >
       <div className="mx-auto max-w-[1200px]">
         {/* En-tête */}

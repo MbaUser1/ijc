@@ -5,7 +5,7 @@ export function About() {
   return (
     <section
       id="a-propos"
-      className=" bg-[#F8FAFC] px-5 pt-16 pb-24 sm:px-6 sm:pt-20 lg:px-8 lg:pt-20 lg:pb-32"
+      className=" bg-[#F8FAFC] px-12 pt-16 pb-24 sm:px-14 sm:pt-20 lg:px-8 lg:pt-20 lg:pb-32"
     >
       <div className="mx-auto max-w-[1200px]">
         {/* En-tête */}
@@ -15,13 +15,14 @@ export function About() {
           </p>
 
           <h2 className="mt-4 font-[var(--font-sora)] text-3xl font-bold leading-tight tracking-[-0.035em] text-[#044E83] sm:text-4xl lg:text-5xl">
-            Une jeunesse au cœur de notre engagement.
+            Chaque jeune, une force pour le progrès
           </h2>
 
           <p className="mx-auto mt-5  text-sm leading-7 text-slate-600 sm:text-base">
-            Nous œuvrons à créer un environnement dans lequel les jeunes peuvent
-            développer leurs compétences, porter leurs idées et participer
-            activement au développement de leur communauté.
+           Nous sommes une association d'accompagnement dédiée au
+                développement des compétences et à l'insertion socio-économique
+                des jeunes,à travers des actions concrètes et orientées
+                résultats.
           </p>
         </div>
 
@@ -55,9 +56,12 @@ export function About() {
 
             <div className="mt-6 space-y-4 text-sm leading-7 text-slate-600 sm:text-base">
               <p>
-                Nous accompagnons les jeunes dans leur parcours personnel et
+                 Nous œuvrons à créer un environnement dans lequel les jeunes peuvent
+            développer leurs compétences, porter leurs idées et participer
+            activement au développement de leur communauté.
+                {/* Nous accompagnons les jeunes dans leur parcours personnel et
                 professionnel à travers la formation, l'accompagnement de
-                projets, l'entrepreneuriat et l'engagement citoyen.
+                projets, l'entrepreneuriat et l'engagement citoyen. */}
               </p>
 
               <p>

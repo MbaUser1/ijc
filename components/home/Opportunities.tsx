@@ -37,7 +37,7 @@ export function Opportunities() {
   return (
     <section
       id="opportunites"
-      className="bg-white px-5 py-18 sm:px-6 lg:px-8 lg:py-22"
+      className="bg-white px-12 py-18 sm:px-14 lg:px-8 lg:py-22"
     >
       <div className="mx-auto max-w-[1200px]">
         {/* Intro */}
@@ -47,7 +47,7 @@ export function Opportunities() {
           </p>
 
           <h2 className="mt-4 font-[var(--font-sora)] text-3xl font-bold leading-tight tracking-[-0.035em] text-[#044E83] sm:text-4xl lg:text-5xl">
-            Les bonnes opportunités peuvent changer un parcours.
+            Les opportunités peuvent changer un parcours.
           </h2>
 
           <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -57,7 +57,7 @@ export function Opportunities() {
         </div>
 
         {/* Liste */}
-        <div className="mx-auto mt-14 max-w-4xl border-t border-slate-200">
+        <div className="mx-auto mt-10 max-w-4xl border-t border-slate-200">
           {opportunities.map((opportunity) => {
             const Icon = opportunity.icon;
 
@@ -65,7 +65,7 @@ export function Opportunities() {
               <a
                 key={opportunity.category}
                 href="#opportunite"
-                className="group flex gap-5 border-b border-slate-200 py-7 sm:items-center sm:gap-7"
+                className="group flex gap-5 border-b border-slate-200 py-5 sm:items-center sm:gap-7"
               >
                 {/* Icône */}
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#F8FAFC] text-[#044E83] transition-colors group-hover:bg-[#044E83] group-hover:text-white">

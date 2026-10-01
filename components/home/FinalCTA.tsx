@@ -20,16 +20,16 @@ export function FinalCTA() {
           />
 
           <div className="relative flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
-            <div className="max-w-2xl">
+            <div className="max-w-3xl">
               <p className="font-[var(--font-sora)] text-xs font-semibold uppercase tracking-[0.2em] text-[#FFC000]">
                 Rejoindre IJC
               </p>
 
-              <h2 className="mt-4 font-[var(--font-sora)] text-2xl font-bold leading-tight tracking-[-0.03em] text-white sm:text-3xl lg:text-4xl">
+              <h2 className="mt-4 font-[var(--font-sora)] text-2xl font-bold leading-tight tracking-[-0.02em] text-white sm:text-3xl lg:text-4xl">
                 Et si votre prochaine initiative commençait avec nous ?
               </h2>
 
-              <p className="mt-4 max-w-xl text-sm leading-6 text-white/75 sm:text-base">
+              <p className="mt-4 max-w-3xl text-sm leading-6 text-white/75 sm:text-base">
                 Rejoignez une communauté de jeunes engagés, développez vos
                 compétences et participez à des initiatives qui créent de
                 l'impact.

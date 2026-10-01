@@ -20,7 +20,7 @@ const resources = [
 export function Footer() {
   return (
     <footer className="bg-[#0B1720] text-white">
-      <div className="mx-auto max-w-[1200px] px-5 py-16 sm:px-6 lg:px-8 lg:py-20">
+      <div className="mx-auto max-w-[1200px] px-12 py-16 sm:px-14 lg:px-8 lg:py-20">
         {/* Partie principale */}
         <div className="grid gap-12 lg:grid-cols-[1.2fr_0.8fr_0.8fr_1fr] lg:gap-10">
           {/* Identité */}
@@ -143,24 +143,24 @@ export function Footer() {
 
             <div className="mt-5 space-y-4">
               <a
-                href="mailto:contact@ijc.cm"
+                href="mailto:impactjeunecameroun@gmail.com"
                 className="flex items-start gap-3 text-sm text-white/55 transition-colors hover:text-white"
               >
                 <Mail size={16} className="mt-0.5 shrink-0" />
-                <span>contact@ijc.cm</span>
+                <span>impactjeunecameroun@gmail.com</span>
               </a>
 
               <a
-                href="tel:+237600000000"
+                href="tel:+237694799465"
                 className="flex items-start gap-3 text-sm text-white/55 transition-colors hover:text-white"
               >
                 <Phone size={16} className="mt-0.5 shrink-0" />
-                <span>+237 6 XX XX XX XX</span>
+                <span>+237 694 799 465 | 682 652 473</span>
               </a>
 
               <div className="flex items-start gap-3 text-sm text-white/55">
                 <MapPin size={16} className="mt-0.5 shrink-0" />
-                <span>Yaoundé, Cameroun</span>
+                <span>Bafoussam, Cameroun</span>
               </div>
             </div>
 
