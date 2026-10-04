@@ -75,7 +75,7 @@ export function EventsContent() {
     <>
       {/* Prochains événements */}
       <section id="prochains-evenements" className="bg-white">
-        <div className="mx-auto max-w-[1280px] px-5 py-20 sm:px-6 lg:px-8 lg:py-28">
+        <div className="mx-auto max-w-[1280px] px-12 py-20 sm:px-14 lg:px-16 lg:py-28">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div className="max-w-2xl">
               <span className="text-sm font-semibold text-[#044E83]">
@@ -214,7 +214,7 @@ export function EventsContent() {
 
       {/* Une autre manière de présenter l'agenda */}
       <section className="overflow-hidden bg-[#F8FAFC]">
-        <div className="mx-auto max-w-[1280px] px-5 py-20 sm:px-6 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-[1280px] px-12 py-20 sm:px-14 lg:px-16 lg:py-24">
           <div className="grid gap-12 lg:grid-cols-[0.75fr_1.25fr] lg:items-start">
             <div className="lg:sticky lg:top-24">
               <span className="text-sm font-semibold text-[#DE0609]">
@@ -288,7 +288,7 @@ export function EventsContent() {
 
       {/* Événements passés */}
       <section id="evenements-passes" className="bg-white">
-        <div className="mx-auto max-w-[1280px] px-5 py-20 sm:px-6 lg:px-8 lg:py-28">
+        <div className="mx-auto max-w-[1280px] px-12 py-20 sm:px-14 lg:px-16 lg:py-28">
           <div className="max-w-2xl">
             <span className="text-sm font-semibold text-[#1C9B35]">
               Nos archives
@@ -347,7 +347,7 @@ export function EventsContent() {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* CTA 
       <section className="bg-[#0B1720]">
         <div className="mx-auto max-w-[1280px] px-5 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="flex flex-col gap-7 lg:flex-row lg:items-center lg:justify-between">
@@ -376,6 +376,7 @@ export function EventsContent() {
           </div>
         </div>
       </section>
+      */}
     </>
   );
 }

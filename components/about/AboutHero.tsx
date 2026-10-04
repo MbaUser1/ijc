@@ -2,9 +2,14 @@ import { ArrowDown, ArrowUpRight } from "lucide-react";
 
 export function AboutHero() {
   return (
-    <section className="bg-[#F8FAFC] px-12 pb-16 pt-36 sm:px-14 sm:pb-24 lg:px-16 lg:pb-24 lg:pt-40">
+    <section className="bg-[#F8FAFC] px-12 pb-16 pt-36 sm:px-14 sm:pb-24 lg:px-14 lg:pb-24 lg:pt-40">
       <div className="mx-auto max-w-[1200px]">
         <div className="max-w-3xl">
+          <div className="mb-6 flex items-center gap-3">
+            <span className="h-1 w-12 rounded-full bg-[#044E83]" />
+            <span className="h-1 w-5 rounded-full bg-[#1C9B35]" />
+            <span className="h-1 w-5 rounded-full bg-[#FFC000]" />
+          </div>
           <p className="font-[var(--font-sora)] text-xs font-semibold uppercase tracking-[0.2em] text-[#1C9B35]">
             À propos d'IJC
           </p>
@@ -15,8 +20,8 @@ export function AboutHero() {
 
           <p className="mt-6 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
             Impact Jeune Cameroun est une initiative engagée dans
-            l'accompagnement, le développement et l'autonomisation des jeunes
-            au Cameroun.
+            l'accompagnement, le développement et l'autonomisation des jeunes au
+            Cameroun.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">

@@ -81,7 +81,7 @@ export function ProjectsContent() {
     <>
       {/* Projets accompagnés */}
       <section id="projets-accompagnes" className="bg-white">
-        <div className="mx-auto max-w-[1280px] px-5 py-20 sm:px-6 lg:px-8 lg:py-28">
+        <div className="mx-auto max-w-[1280px] px-12 py-20 sm:px-14 lg:px-18 lg:py-28">
           <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-2xl">
               <span className="text-sm font-semibold text-[#044E83]">
@@ -177,7 +177,7 @@ export function ProjectsContent() {
 
       {/* Tous les projets */}
       <section id="tous-les-projets" className="bg-[#F8FAFC]">
-        <div className="mx-auto max-w-[1280px] px-5 py-20 sm:px-6 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-[1280px] px-12 py-20 sm:px-14 lg:px-16 lg:py-24">
           <div className="max-w-2xl">
             <span className="text-sm font-semibold text-[#1C9B35]">
               Explorer
@@ -205,10 +205,7 @@ export function ProjectsContent() {
                 href="#projets-accompagnes"
                 className="rounded-2xl border border-[#E2E8F0] bg-white p-6"
               >
-                <span
-                  className="text-sm font-semibold"
-                  style={{ color }}
-                >
+                <span className="text-sm font-semibold" style={{ color }}>
                   {number}
                 </span>
 
@@ -228,7 +225,7 @@ export function ProjectsContent() {
 
       {/* Accompagnement */}
       <section className="bg-white">
-        <div className="mx-auto max-w-[1280px] px-5 py-20 sm:px-6 lg:px-8 lg:py-28">
+        <div className="mx-auto max-w-[1280px] px-12 py-20 sm:px-14 lg:px-16 lg:py-28">
           <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
             <div>
               <span className="text-sm font-semibold text-[#044E83]">
@@ -292,7 +289,7 @@ export function ProjectsContent() {
 
       {/* Soumettre */}
       <section id="soumettre" className="bg-[#044E83]">
-        <div className="mx-auto max-w-[1280px] px-5 py-16 sm:px-6 lg:px-8 lg:py-20">
+        <div className="mx-auto max-w-[1280px] px-12 py-16 sm:px-14 lg:px-12 lg:py-20">
           <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
             <div className="max-w-2xl">
               <span className="text-sm font-medium text-[#FFC000]">

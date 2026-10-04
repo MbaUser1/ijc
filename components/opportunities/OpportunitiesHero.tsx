@@ -8,13 +8,14 @@ import {
 
 export function OpportunitiesHero() {
   return (
-    <section className="relative overflow-hidden bg-[#0B1720]">
+    // <section className="relative overflow-hidden">
+      <section className=" bg-[#0B1720] px-12 pb-16 pt-36 sm:px-14 sm:pb-24 lg:px-14 lg:pb-24 lg:pt-40">
       <div className="absolute right-[-100px] top-[-130px] h-80 w-80 rounded-full border border-white/10" />
       <div className="absolute right-[-25px] top-[-55px] h-64 w-64 rounded-full border border-[#FFC000]/15" />
 
       <div className="absolute bottom-[-130px] left-[-90px] h-72 w-72 rounded-full bg-[#044E83]/30 blur-3xl" />
 
-      <div className="relative mx-auto max-w-[1280px] px-5 py-20 sm:px-6 lg:px-8 lg:py-28">
+      <div className="relative mx-auto max-w-[1200px]">
         <div className="grid items-end gap-12 lg:grid-cols-[1fr_0.65fr]">
           <div className="max-w-3xl">
             <span className="inline-flex items-center gap-2 text-sm font-medium text-[#FFC000]">

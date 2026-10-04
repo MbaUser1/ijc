@@ -18,7 +18,7 @@ export function About() {
             Chaque jeune, une force pour le progrès
           </h2>
 
-          <p className="mx-auto mt-5  text-sm leading-7 text-slate-600 sm:text-base">
+          <p className="mx-auto mt-5  text-sm leading-6 text-slate-600 sm:text-base">
            Nous sommes une association d'accompagnement dédiée au
                 développement des compétences et à l'insertion socio-économique
                 des jeunes,à travers des actions concrètes et orientées
@@ -54,7 +54,7 @@ export function About() {
               l'engagement.
             </p>
 
-            <div className="mt-6 space-y-4 text-sm leading-7 text-slate-600 sm:text-base">
+            <div className="mt-6 space-y-4 text-sm leading-6 text-slate-600 sm:text-base">
               <p>
                  Nous œuvrons à créer un environnement dans lequel les jeunes peuvent
             développer leurs compétences, porter leurs idées et participer

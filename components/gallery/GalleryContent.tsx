@@ -52,7 +52,7 @@ export function GalleryContent() {
   return (
     <div>
       {/* Filtres */}
-      <section className="border-b border-[#E2E8F0] bg-white px-5 py-8 sm:px-6 lg:px-8">
+      <section className="border-b border-[#E2E8F0] bg-white px-12 py-8 sm:px-14 lg:px-16">
         <div className="mx-auto max-w-[1280px]">
           <div className="flex flex-wrap gap-2">
             {categories.map((category, index) => (
@@ -73,7 +73,7 @@ export function GalleryContent() {
       </section>
 
       {/* Galerie */}
-      <section className="bg-white px-5 py-16 sm:px-6 lg:px-8 lg:py-24">
+      <section className="bg-white px-12 py-16 sm:px-14 lg:px-16 lg:py-24">
         <div className="mx-auto max-w-[1280px]">
           <div className="grid auto-rows-[220px] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:auto-rows-[190px]">
             {galleryItems.map((item, index) => {
@@ -164,7 +164,7 @@ export function GalleryContent() {
       </section>
 
       {/* Dernier appel */}
-      <section className="bg-white px-5 py-20 sm:px-6 lg:px-8 lg:py-24">
+      <section className="bg-white px-12 py-20 sm:px-14 lg:px-16 lg:py-24">
         <div className="mx-auto max-w-[900px] text-center">
           <div className="mx-auto flex w-fit items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-[#DE0609]" />

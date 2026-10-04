@@ -1,7 +1,7 @@
 export function GalleryHero() {
   return (
-    <section className="bg-[#F8FAFC]">
-      <div className="mx-auto max-w-[1280px] px-5 py-20 sm:px-6 lg:px-8 lg:py-28">
+    <section className="bg-[#F8FAFC] px-12 pb-16 pt-36 sm:px-14 sm:pb-24 lg:px-14 lg:pb-24 lg:pt-40">
+      <div className="mx-auto max-w-[1200px]">
         <div className="max-w-3xl">
           <div className="mb-6 flex items-center gap-3">
             <span className="h-1 w-12 rounded-full bg-[#044E83]" />

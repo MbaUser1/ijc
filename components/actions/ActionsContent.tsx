@@ -101,7 +101,7 @@ export function ActionsContent() {
       {/* Introduction */}
       <section
         id="domaines"
-        className="bg-white px-5 py-20 sm:px-6 lg:px-8 lg:py-28"
+        className="bg-white px-12 py-20 sm:px-14 lg:px-16 lg:py-28"
       >
         <div className="mx-auto max-w-[1200px]">
           <div className="max-w-2xl">
@@ -122,7 +122,7 @@ export function ActionsContent() {
       </section>
 
       {/* Domaines */}
-      <section className="bg-white px-5 pb-24 sm:px-6 lg:px-8 lg:pb-32">
+      <section className="bg-white px-12 pb-24 sm:px-14 lg:px-16 lg:pb-32">
         <div className="mx-auto max-w-[1200px]">
           <div className="divide-y divide-slate-200 border-t border-slate-200">
             {actions.map((action) => {
@@ -208,7 +208,7 @@ export function ActionsContent() {
       </section>
 
       {/* Approche */}
-      <section className="bg-[#F8FAFC] px-5 py-24 sm:px-6 lg:px-8 lg:py-32">
+      <section className="bg-[#F8FAFC] px-12 py-24 sm:px-14 lg:px-16 lg:py-32">
         <div className="mx-auto max-w-[1200px]">
           <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:gap-24">
             <div className="max-w-md">
@@ -252,7 +252,7 @@ export function ActionsContent() {
       </section>
 
       {/* CTA */}
-      <section className="bg-white px-5 py-20 sm:px-6 lg:px-8 lg:py-24">
+      <section className="bg-white px-12 py-20 sm:px-14 lg:px-16 lg:py-24">
         <div className="mx-auto max-w-[1200px]">
           <div className="relative overflow-hidden rounded-2xl bg-[#044E83] px-6 py-12 sm:px-10 lg:px-14">
             <div

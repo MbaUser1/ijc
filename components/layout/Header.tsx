@@ -389,11 +389,11 @@ import { ArrowUpRight, Menu, X } from "lucide-react";
 import Image from "next/image";
 
 const navigation = [
-  { label: "À propos", href: "#a-propos" },
-  { label: "Nos actions", href: "#actions" },
-  { label: "Projets", href: "#projets" },
-  { label: "Opportunités", href: "#opportunites" },
-  { label: "Événements", href: "#evenements" },
+  { label: "À propos", href: "a-propos" },
+  { label: "Nos actions", href: "/actions" },
+  { label: "Projets", href: "/projets" },
+  { label: "Opportunités", href: "/opportunites" },
+  { label: "Événements", href: "/evenements" },
 ];
 
 export function Header() {

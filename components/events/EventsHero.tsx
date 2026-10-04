@@ -3,13 +3,13 @@ import { ArrowDown, ArrowRight, CalendarDays } from "lucide-react";
 
 export function EventsHero() {
   return (
-    <section className="relative overflow-hidden bg-[#0B1720]">
+    <section className="bg-[#0B1720] px-12 pb-16 pt-36 sm:px-14 sm:pb-24 lg:px-14 lg:pb-24 lg:pt-40">
       {/* Accents graphiques */}
       <div className="absolute right-[-80px] top-[-100px] h-72 w-72 rounded-full border border-white/10" />
       <div className="absolute right-[-20px] top-[-40px] h-52 w-52 rounded-full border border-[#FFC000]/20" />
       <div className="absolute bottom-[-100px] left-[-80px] h-64 w-64 rounded-full bg-[#044E83]/30 blur-3xl" />
 
-      <div className="relative mx-auto max-w-[1280px] px-5 py-20 sm:px-6 lg:px-8 lg:py-28">
+      <div className="relative mx-auto max-w-[1200px] ">
         <div className="grid items-end gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="max-w-3xl">
             <span className="inline-flex items-center gap-2 text-sm font-medium text-[#FFC000]">
