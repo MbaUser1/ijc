@@ -394,6 +394,7 @@ const navigation = [
   { label: "Projets", href: "/projets" },
   { label: "Opportunités", href: "/opportunites" },
   { label: "Événements", href: "/evenements" },
+  { label: "Gallerie", href: "/gallery" },
 ];
 
 export function Header() {
