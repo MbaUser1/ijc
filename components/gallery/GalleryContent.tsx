@@ -2,37 +2,37 @@ import { ArrowUpRight, Play } from "lucide-react";
 
 const galleryItems = [
   {
-    image: "/images/gallery/gallery-01.jpg",
+    image: "/images/gallery/gallery-01.JPG",
     title: "Rencontres & échanges",
     category: "Événements",
     size: "large",
   },
   {
-    image: "/images/gallery/gallery-02.jpg",
+    image: "/images/gallery/gallery-02.JPG",
     title: "Apprendre ensemble",
     category: "Formation",
     size: "small",
   },
   {
-    image: "/images/gallery/gallery-03.jpg",
+    image: "/images/gallery/gallery-03.JPG",
     title: "Des idées en action",
     category: "Entrepreneuriat",
     size: "small",
   },
   {
-    image: "/images/gallery/gallery-04.jpg",
+    image: "/images/gallery/gallery-04.JPG",
     title: "Construire le collectif",
     category: "Jeunesse",
     size: "medium",
   },
   {
-    image: "/images/gallery/gallery-05.jpg",
+    image: "/images/gallery/gallery-05.JPG",
     title: "Partager les expériences",
     category: "Rencontres",
     size: "medium",
   },
   {
-    image: "/images/gallery/gallery-06.jpg",
+    image: "/images/gallery/gallery-06.JPG",
     title: "Passer à l'action",
     category: "Initiatives",
     size: "large",
